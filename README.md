@@ -4,7 +4,7 @@ This bot will listen for @mention on a twitter account.
 
 It resonds by sending the post to a subreddit of your choice.
 
-# Requirements
+# Prerequisites
 
 You are required to have an API key for both twitter and reddit.
 
@@ -32,7 +32,6 @@ Copy the contents of the file and fill in your environment variables
 
 ```
 # Twitter Credentials:
-
 consumer_key='******'
 consumer_secret='******'
 access_token='******'
@@ -51,3 +50,17 @@ SUBREDDIT='??'
 # Listen For Twitter @Mentions On User:
 MENTION_USER='??'
 ```
+
+# Install
+
+To install, use the command:
+
+`npm install`
+
+# Run
+
+To run, use the command:
+
+`node app.js`
+
+The bot will run and listen for @mentions until you use `ctrl+c` to stop it.
